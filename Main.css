@@ -1,0 +1,110 @@
+html {
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Courier New', Courier;
+    background-color: #04023C;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 95%;
+    background-color: #181C17;
+    border-radius: 3px;
+    justify-content: space-between;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-link {
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: #676863;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 20px;
+}
+
+#registro {
+    display: flex;
+    height: 30px;
+}
+
+#caracteristicas {
+    text-align: left;
+    padding: 50px;
+    border-style: solid;
+    border-color: #010111;
+}
+
+#caracteristicas>h1 {
+    text-align: center;
+}
+
+#funcionamiento {
+    padding: 50px;
+}
+#comprar {
+    display: flex;
+}
+
+#chris, #jill, #barry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #010111;
+}
+
+#botoncomprar {
+    background-color: #40BF52;
+    border-color: transparent;
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 55px;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 500px) {
+    html {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    #comprar {
+        display: flex;
+        flex-direction: column;
+    }
+}
